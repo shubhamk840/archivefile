@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(" mongodb://127.0.0.1:27017/MyArchives",{
+mongoose.connect(" mongodb+srv://iamskk0502:iamskk0502@zcluster.6271j.mongodb.net/codeArchive?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
